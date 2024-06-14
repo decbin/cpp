@@ -5,20 +5,11 @@
             "name": "LLDB - Build and debug active file",
             "type": "lldb",
             "request": "launch",
-            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "program": "build/myapp",
             "args": [],
             "stopOnEntry": false,
             "cwd": "${workspaceFolder}",
-            // "externalConsole": false,
-            // "MIMode": "lldb",
-            "preLaunchTask": "build",
-            // "setupCommands": [
-            //     {
-            //         "description": "Enable pretty-printing for lldb",
-            //         "text": "settings set target.inline-breakpoint-strategy always",
-            //         "ignoreFailures": true
-            //     }
-            // ]
+            "preLaunchTask": "CMake Build",
         }
     ]
 }

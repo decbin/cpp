@@ -2,21 +2,19 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "build",
+            "label": "CMake Build",
             "type": "shell",
-            "command": "g++",
+            "command": "cmake",
             "args": [
-                "-g",
-                "${file}",
-                "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
+                "--build",
+                "${workspaceFolder}/build",
+                "--config",
+                "Debug"
             ],
             "group": {
                 "kind": "build",
                 "isDefault": true
-            },
-            "problemMatcher": ["$gcc"],
-            "detail": "Generated task by setup script."
+            }
         }
     ]
 }
