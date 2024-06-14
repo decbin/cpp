@@ -1,0 +1,98 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon files
+Icon
+Icon\r
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+
+# C++ specific build files
+*.o
+*.obj
+*.so
+*.exe
+*.out
+*.a
+*.lib
+*.dll
+*.dylib
+*.pdb
+*.idb
+*.class
+*.swp
+*.swo
+
+# CMake build directories
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CMakeLists.txt.user
+build/
+
+# Clang specific files
+*.dSYM/
+*.dSYM/Contents/Resources/DWARF/*
+
+# Xcode specific files
+*.xcworkspace
+*.xcuserdata
+*.xcuserstate
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcshareddata/
+*.xcodeproj/xcuserdata/
+*.xcscmblueprint
+
+# Ninja specific files
+.ninja_deps
+.ninja_log
+
+# Other editors
+*~ 
+\#*\#
+.\#*
+*.swp
+*\4913
+*.DS_Store
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+*.db
+*.db-journal
+
+# Others
+*~
+*.tmp
+*.bak
+*.backup
+*.swp
+*.swo
+*.swn
+*.lock
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pyo
+*.log
+
+# Temporary files
+tmp/
+temp/
